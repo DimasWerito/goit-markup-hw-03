@@ -1,4 +1,5 @@
 :root {
+  box-sizing: border-box;
   --primary-font: "Roboto", sans-serif;
   --title-font: "Raleway", sans-serif;
   --primary-black-color: #434455;
@@ -6,6 +7,12 @@
   --primary-accent-color: #4d5ae5;
   --secondary-accent-color: #404bbf;
   --active-link-color: #f44336;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -22,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--title-font);
+  --primary-font: "Roboto", sans-serif;
 }
 
 /* #region Base styles */
