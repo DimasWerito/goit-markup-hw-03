@@ -7,13 +7,17 @@
   --primary-accent-color: #4d5ae5;
   --secondary-accent-color: #404bbf;
   --active-link-color: #f44336;
+  /* Others */
+  --items: 3;
+  --col-indent: 24px;
+  --row-indent: 48px;
 }
 
-/* *,
+*,
 *::before,
 *::after {
   box-sizing: inherit;
-} */
+}
 
 /* #region Base styles */
 body {
@@ -81,6 +85,19 @@ button {
   outline: 2px solid red;
   outline-offset: -2px;
 }
+/* Card Set */
+
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: var(--row-indent);
+  column-gap: var(--col-indent);
+}
+
+.card-set-item {
+  width: calc((100% - var(--col-indent) * (var(--items) - 1)) / var(--items));
+}
+
 /* #endregion */
 
 /* #region Header */
@@ -236,23 +253,32 @@ button {
   padding-bottom: 120px;
 }
 .team-title {
+  margin: 0 auto;
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 40px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
 }
 .team-list {
-  background-color: #ffffff;
+  --items: 4;
+  --col-indent: 24px;
 }
 .team-item {
   background-color: #ffffff;
 }
 .team-pic {
 }
+
+.team-card-content {
+  padding: 32px 0;
+}
+
 .team-subtitle {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -276,6 +302,8 @@ button {
   padding-bottom: 120px;
 }
 .portfolio-title {
+  margin: 0 auto;
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -287,10 +315,17 @@ button {
 .portfolio-list {
 }
 .portfolio-item {
+  border: 1px solid #e7e9fc;
 }
 .portfolio-pic {
 }
+
+.portfolio-card-content {
+  padding: 32px;
+}
+
 .portfolio-subtitle {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
