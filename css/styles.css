@@ -207,11 +207,13 @@ button {
 .benefits-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 .benefits-item {
   width: 264px;
 }
 .benefits-subtitle {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
