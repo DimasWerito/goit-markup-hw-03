@@ -15,6 +15,7 @@
   box-sizing: inherit;
 } */
 
+/* #region Base styles */
 body {
   font-family: var(--primary-font);
   color: var(--primary-black-color);
@@ -41,8 +42,6 @@ h5,
 h6 {
   --primary-font: "Roboto", sans-serif;
 }
-
-/* #region Base styles */
 
 ul,
 ol {
@@ -88,6 +87,11 @@ button {
 
 .header {
 }
+
+.header .container {
+  display: flex;
+}
+
 .header-nav {
 }
 .nav {
@@ -181,6 +185,8 @@ button {
 
 /* #region Benefits */
 .benefits {
+  padding-top: 120px;
+  padding-bottom: 128px;
 }
 .benefits-list {
 }
@@ -205,6 +211,8 @@ button {
 /* #region Team */
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-title {
   font-weight: 700;
@@ -243,6 +251,8 @@ button {
 
 /* #region Portfolio */
 .portfolio {
+  padding-top: 112px;
+  padding-bottom: 120px;
 }
 .portfolio-title {
   font-weight: 700;
