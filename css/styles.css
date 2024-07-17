@@ -300,8 +300,10 @@ button {
 .team-list {
   --items: 4;
   --col-indent: 24px;
+  gap: 24px;
 }
 .team-item {
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
 .team-pic {
