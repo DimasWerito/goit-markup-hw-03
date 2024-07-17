@@ -337,7 +337,7 @@ button {
   padding: 120px 0 120px 0;
 }
 
-.portfolio .container {
+.portfolio-card-content {
   padding: 32px 16px;
   border-top: none;
   border: 1px solid #e7e9fc;
