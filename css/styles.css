@@ -239,9 +239,20 @@ button {
 
 /* #region Benefits */
 .benefits {
-  padding-top: 120px;
-  padding-bottom: 128px;
+  padding: 120px 0;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 .benefits-list {
   display: flex;
   gap: 24px;
