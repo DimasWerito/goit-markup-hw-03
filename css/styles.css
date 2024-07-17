@@ -336,6 +336,13 @@ button {
 .portfolio {
   padding: 120px 0 120px 0;
 }
+
+.portfolio .container {
+  padding: 32px 16px;
+  border-top: none;
+  border: 1px solid #e7e9fc;
+}
+
 .portfolio-title {
   margin: 0 auto;
   margin-bottom: 72px;
