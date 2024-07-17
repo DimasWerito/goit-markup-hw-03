@@ -107,6 +107,7 @@ button {
 /* #region Header */
 
 .header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header .container {
@@ -123,6 +124,7 @@ button {
   justify-content: space-between;
 }
 .logo {
+  margin-right: 76px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
