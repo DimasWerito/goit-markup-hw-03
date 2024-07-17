@@ -47,6 +47,10 @@ h6 {
   --primary-font: "Roboto", sans-serif;
 }
 
+img {
+  display: block;
+}
+
 ul,
 ol {
   list-style-type: none;
